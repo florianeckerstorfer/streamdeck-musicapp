@@ -1,0 +1,40 @@
+{
+  "Actions": [
+    {
+      "Icon": "plugin/images/actions/play",
+      "Name": "Play / Pause",
+      "States": [
+        {
+          "Image": "plugin/images/actions/play",
+          "Name": "Play"
+        },
+        {
+          "Image": "plugin/images/actions/pause",
+          "Name": "Pause"
+        }
+      ],
+      "Tooltip": "Play or pause Music.app.",
+      "UUID": "ec.florian.musicapp.playpause"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "Florian Eckerstorfer",
+  "CodePath": "plugin/main.js",
+  "Description": "Control Music.app on your Mac.",
+  "Name": "Music.app",
+  "Icon": "plugin/images/icons/plugin",
+  "Category": "Music",
+  "CategoryIcon": "plugin/images/icons/category",
+  "URL": "https://florian.ec/streamdeck-musicapp",
+  "Version": "1.0",
+  "DefaultWindowSize": [500, 650],
+  "OS": [
+    {
+      "Platform": "mac",
+      "MinimumVersion": "10.11"
+    }
+  ],
+  "Software": {
+    "MinimumVersion": "4.2"
+  }
+}
